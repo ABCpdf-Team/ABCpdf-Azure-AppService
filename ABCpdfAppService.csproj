@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>39497ee9-c31b-46a3-88f3-9a3eb74012c8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ABCpdf" Version="12.1.0.1" />
+    <PackageReference Include="ABCpdf.ABCWebKit" Version="12.1.0.1" />
+  </ItemGroup>
+
+</Project>
