@@ -9,8 +9,8 @@ ABCWebKit engine</a>.</p>
 <li>Copy your ABCpdf license key where specified in Startup.cs.</li>
 <li>Build and test locally.</li>
 <li>Create a Windows .NET 5 Web App in your Azure portal.</li>
-<li><strong>NB the minimum App Service plan the ABCWEbkit will work on is a Basic B1 instance.</strong> This is Microsft's policy and may incur charges even for development.</li>
-<li><strong>Change the App Service platform to "64 Bit"</strong> in the App Service Configuration/General Settings. <strong>It will not work on a 32-bit platform!</strong></li> 
+<li><strong>NB the minimum App Service plan the ABCWebkit will work on is a Basic B1 instance.</strong> This is Microsft's policy and may incur charges even for development.</li>
+<li><strong>Change the App Service platform to "64 Bit"</strong> in the App Service Configuration/General Settings. <strong>It will not work on 32-bit.</strong></li> 
 <li>Publish the solution to the Azure App Service <strong>ensuring your target runtime is "win-x64"</strong>.</li>
 </ul>
 <p>The ABCWebKit engine has been built on <a href="https://wkhtmltopdf.org/">wkhtmltopdf</a> which in turn is based on a version of QTWebKit 
