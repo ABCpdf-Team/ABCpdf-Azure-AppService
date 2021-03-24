@@ -14,11 +14,12 @@ ABCWebKit engine</a>.</p>
 <li>Publish the solution to the Azure App Service <strong>ensuring your target runtime is "win-x64"</strong>.</li>
 <li>Enjoy! &#128512;</li>
 </ul>
+<p>Novices may like our <a href="https://www.websupergoo.com/support-azure-abcpdf.aspx#appservice">App Service Azure Deployment Guide</a> that contains a step by step walkthrough from clone to cloud using Azure Portal and Visual Studio 2019.</p>
 <h2>Notes</h2>
 <p>The ABCWebKit engine has been built on <a href="https://wkhtmltopdf.org/">wkhtmltopdf</a> which in turn is based on a version of QTWebKit 
 from 2012 which was last updated in 2015! Therefore <strong><em>we strongly recommend that you only use the ABCWebkit engine to process HTML that you trust</em></strong>.</p>
 
-<p>Our <a href="https://www.websupergoo.com/support-azure-abcpdf.aspx#appservice">Azure Deployment Guide</a> contains a step by step walkthrough from clone to cloud.</p>
+
 <p>This solution was last tested in March 2021. Do bear in mind how often the Azure framework changes when following these instructions, especially in terms of nomenclature!</p>
 <p>ABCpdf has extensive documentation and examples <a href="https://www.websupergoo.com/helppdfnet/default.htm">online</a> and in the <a href="https://www.websupergoo.com/abcpdf-download.aspx">full ABCpdf installer package</a>.</p>
 <em>The ABCpdf Team</em>
