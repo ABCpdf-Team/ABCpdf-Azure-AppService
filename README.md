@@ -5,7 +5,7 @@ ABCWebKit engine</a>.</p>
 <p>Follow these steps to get your App Service up and running:</p>
 <ul>
 <li>Clone the project.</li>
-<li>Ensure that the <a href="https://www.nuget.org/packages/ABCpdf/">ABCpdf</a> and <a href="">ABCpdf.ABCWebKit</a> NuGet packages are restored/installed.</li>
+<li>Ensure that the <a href="https://www.nuget.org/packages/ABCpdf/">ABCpdf</a> and <a href="https://www.nuget.org/packages/ABCpdf.ABCWebKit/">ABCpdf.ABCWebKit</a> NuGet packages are restored/installed.</li>
 <li>Copy your ABCpdf license key where specified in Startup.cs.</li>
 <li>Build and test locally.</li>
 <li>Create a Windows .NET 5 Web App in your Azure portal.</li>
