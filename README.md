@@ -1,5 +1,5 @@
 <h1>ABCpdfAppService</h1>
-<h2>.NET 5 Azure App Service demonstrating HTML to PDF conversion using <a href="https://www.websupergoo.com/abcpdf-1.aspx">ABCpdf</a>.</h2>
+<h2>.NET 5 Azure App Service demonstrating HTML to PDF conversion using <a href="https://www.websupergoo.com/abcpdf-1.aspx">ABCpdf.NET</a>.</h2>
 <p>This is an example solution for performing HTML to PDF conversion in a .NET 5 Azure App Service using ABCpdf's <a href="https://www.websupergoo.com/helppdfnet/default.htm?page=source%2F5-abcpdf%2Fxhtmloptions%2F2-properties%2F2-forwebkit.htm">
 ABCWebKit engine</a>.</p>
 <p>Follow these steps to get your App Service up and running:</p>
