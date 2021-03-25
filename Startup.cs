@@ -26,11 +26,19 @@ namespace ABCpdfAppService {
 			app.UseEndpoints(endpoints => {
 				endpoints.MapGet("/", async context => {
 					context.Response.Clear();
-
 					try {
-						XSettings.InstallLicense("<paste your license here>");
-						using(Doc doc = new Doc()) {
+						// When running as an App Service we need to install the license in code otherwise you will
+						// get a licensing exception. ABCpdf automatically installs a trial license if no license is
+						// found.
+						// Your trial license may be found by uncommenting the line below WHEN RUNNING ON YOUR LOCAL
+						// COMPUTER. NB XSettings.Key returns an empty string for purchased licenses.
+						// throw new Exception(XSettings.Key);
 
+						// Paste either the ABCpdf 12 key provided at time of purchase, or the value obtained from
+						// uncommenting the line above. This must be set correctly prior to running on Azure.
+						XSettings.InstallLicense("PASTE YOUR LICENSE HERE");
+
+						using(Doc doc = new Doc()) {
 							doc.HtmlOptions.Engine = EngineType.WebKit;
 							doc.HtmlOptions.Media = MediaType.Screen;
 							int id = doc.AddImageUrl("https://www.websupergoo.com");
@@ -54,6 +62,8 @@ namespace ABCpdfAppService {
 					} catch(Exception ex) {
 						await context.Response.WriteAsync(ex.Message);
 					}
+					await context.Response.CompleteAsync();
+
 				});
 			});
 		}
