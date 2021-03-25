@@ -6,7 +6,7 @@ ABCWebKit engine</a>.</p>
 <ul>
 <li>Clone the project.</li>
 <li>Ensure that the <a href="https://www.nuget.org/packages/ABCpdf/">ABCpdf</a> and <a href="https://www.nuget.org/packages/ABCpdf.ABCWebKit/">ABCpdf.ABCWebKit</a> NuGet packages are restored/installed.</li>
-<li>Copy your ABCpdf license key where specified in Startup.cs.</li>
+<li>Follow the instructions in Startup.cs to paste your license into the code.</li>
 <li>Build and test locally.</li>
 <li>Create a Windows .NET 5 Web App in your Azure portal.</li>
 <li><strong>NB the minimum App Service plan the ABCWebkit will work on is a Basic B1 instance.</strong> This is Microsft's policy and may incur charges even for development.</li>
