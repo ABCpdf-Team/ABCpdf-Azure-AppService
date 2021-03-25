@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ABCpdf" Version="12.1.0.1" />
-    <PackageReference Include="ABCpdf.ABCWebKit" Version="12.1.0.1" />
+    <PackageReference Include="ABCpdf" Version="(12.1,)" />
+    <PackageReference Include="ABCpdf.ABCWebKit" Version="(12.1,)" />
   </ItemGroup>
 
 </Project>
