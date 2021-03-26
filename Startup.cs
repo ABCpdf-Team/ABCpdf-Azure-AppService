@@ -6,8 +6,6 @@
 //
 //		http://www.websupergoo.com/
 //
-//	This copyright notice must not be deleted and must be reproduced alongside
-//	any sections of code extracted from this module.
 // ===========================================================================
 
 using Microsoft.AspNetCore.Builder;
