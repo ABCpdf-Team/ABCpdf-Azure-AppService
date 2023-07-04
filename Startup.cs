@@ -1,5 +1,5 @@
 // ===========================================================================
-//	©2013-2021 WebSupergoo. All rights reserved.
+//	Â©2013-2023 WebSupergoo. All rights reserved.
 //
 //	This source code is for use exclusively with the ABCpdf product under
 //	the terms of the license for that product. Details can be found at
