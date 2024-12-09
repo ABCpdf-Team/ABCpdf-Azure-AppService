@@ -1,7 +1,7 @@
 <h1>ABCpdf-Azure-AppService</h1>
 <h2>.NET 7.0 Azure App Service demonstrating HTML to PDF conversion using <a href="https://www.websupergoo.com/abcpdf-1.aspx">ABCpdf</a>.</h2>
-<p>This is an example solution for performing HTML to PDF conversion in a .NET 7.0 Azure App Service using ABCpdf's <a href="https://www.websupergoo.com/helppdfnet/default.htm?page=source%2F5-abcpdf%2Fxhtmloptions%2F2-properties%2F2-forwebkit.htm">
-ABCWebKit engine</a>.</p>
+<p>This is an example solution for performing HTML to PDF conversion in a .NET 7.0 Azure App Service using the ABCpdf <a href="https://www.websupergoo.com/helppdfnet/default.htm?page=source%2F5-abcpdf%2Fxhtmloptions%2F2-properties%2F2-forwebkit.htm">
+ABCWebKit HTML engine</a>.</p>
 <p>Follow these steps to get your App Service up and running:</p>
 <ul>
 <li>Clone the project.</li>
@@ -9,7 +9,7 @@ ABCWebKit engine</a>.</p>
 <li>Follow the instructions in Startup.cs to paste your license into the code.</li>
 <li>Build and test locally.</li>
 <li>Create a Windows .NET 7 Web App in your Azure portal.</li>
-<li><strong>NB the minimum App Service plan the ABCWebkit will work on is a Basic B1 instance.</strong> This is Microsft's policy and may incur charges even for development.</li>
+<li><strong>NB the minimum App Service plan that ABCWebkit will work on is a Basic B1 instance.</strong> This is Microsoft's policy and may incur charges even for development.</li>
 <li><strong>Change the App Service platform to "64 Bit"</strong> in the App Service Configuration/General Settings. <strong>It will not work on 32-bit.</strong></li> 
 <li>Publish the solution to the Azure App Service <strong>ensuring your target runtime is "win-x64"</strong>.</li>
 <li>Enjoy! &#128512;</li>
